@@ -71,6 +71,7 @@ class _MinhaHomePageState extends State<MinhaHomePage> {
                   fontSize: 100,
                   color: estaCheio ? Colors.black : Colors.white,
                   fontWeight: FontWeight.w700,
+
                 ),
               ),
             ),
@@ -99,7 +100,7 @@ class _MinhaHomePageState extends State<MinhaHomePage> {
                 TextButton(
                     onPressed: estaCheio ? null : incrementar,
                     style: TextButton.styleFrom(
-                      backgroundColor: Colors.white,
+                      backgroundColor: estaCheio ? Colors.red : Colors.white,
                       fixedSize: Size(100, 100),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(20),
