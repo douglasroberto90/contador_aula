@@ -1,6 +1,6 @@
 # contador_aula
 
-Contador desenvolvido na Aula de Programação para Dispositivos Móveis I - Fatec Itapira
+Contador de pessoas desenvolvido na Aula de Programação para Dispositivos Móveis I - Fatec Itapira
 
 ## Getting Started
 
